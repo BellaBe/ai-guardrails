@@ -1,0 +1,21 @@
+openai_api_key: ${OPENAI_API_KEY}
+models:
+  openai_model: gpt-4o
+input_guardrails:
+  topics:
+    allowed: ["legal advice", "contract review", "negotiation tips"]
+    off_topic: ["entertainment", "sports", "politics"]
+
+  injections:
+    prompt_injections: 
+      - "ignore previous instructions"
+      - "disregard prior context"
+    jailbreak_patterns: 
+      - "you are free now"
+      - "please override"
+
+output_guardrails:
+  factual_accuracy: true
+  relevancy: true
+  policy_compliance: true
+  contextual_coherence: true

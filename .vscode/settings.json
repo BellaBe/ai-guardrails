@@ -1,0 +1,9 @@
+{
+    "python.analysis.extraPaths": [
+        "/Users/bellabelgarokova/Library/Caches/pypoetry/virtualenvs/ai-guardrails-YQ__nbZw-py3.12"
+    ],
+    "python.defaultInterpreterPath": "/Users/bellabelgarokova/Library/Caches/pypoetry/virtualenvs/ai-guardrails-YQ__nbZw-py3.12/bin/python3",
+    "files.exclude": {
+        "**/__pycache__": true
+    }
+}

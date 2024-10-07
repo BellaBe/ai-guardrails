@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ai-guardrails"
+version = "0.1.0"
+description = ""
+authors = ["BellaBe <bella@actualize.ae>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+nats-py = "^2.9.0"
+python-dotenv = "^1.0.1"
+loguru = "^0.7.2"
+pyyaml = "^6.0.2"
+openai = "^1.51.0"
+numpy = "^2.1.2"
+frozendict = "^2.4.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
